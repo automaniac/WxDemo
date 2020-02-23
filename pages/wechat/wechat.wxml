@@ -1,0 +1,17 @@
+<!--pages/wechat/wechat.wxml-->
+<view class="out">
+<view class="con" wx:for="{{wechat}}">
+    <view bindtap="toDetail" data-cid="{{item.channelid}}">{{item.channel}}</view>
+</view>
+</view>
+<view class="container">
+<text>请输入微信文章</text>
+  <input bindinput="getWechat" class="ins" placeholder="该接口已失效"></input>
+  <button class="btns" bindtap="search">搜索</button>
+  <view wx:for="{{list}}">
+    <text>{{item.title}}</text>
+    <text>{{item.time}}</text>
+    <text>来源:{{item.src}}</text>
+    <image src="{{item.pic}}"></image>
+  </view>
+  </view>

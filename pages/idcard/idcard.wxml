@@ -1,0 +1,8 @@
+<!--pages/qq/qq.wxml-->
+<view class="container">
+  <text>身份证测试</text>
+  <input bindinput="getId" class="ins" placeholder="请输入身份证号"></input>
+  <button bindtap="select" class="btns">查询</button>
+  <text>{{result.area}}</text>
+  <text>{{result.birth}}</text>
+</view>

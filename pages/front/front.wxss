@@ -1,0 +1,61 @@
+/* pages/front/front.wxss */
+.banner{
+  width: 100%;
+  height: 100%;
+}
+.weather{
+  text-align: center
+}
+.bodyv {
+  width: 100%;
+  height: 1000rpx;
+  background-color: gray;
+}
+.bodyLeft {
+  width: 30%;
+  height: 100%;
+  align-content: center;
+  background-color: #e1e1e1;
+  float: left;
+}
+.bodyLeftItem {
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  padding-top: 34rpx;
+  border-bottom: 1rpx solid black;
+}
+
+.bodyRight {
+  width: 70%;
+  height: 100%;
+  background-color: #f1f1f1;
+  float: right;
+}
+
+.bodyRightItem {
+  width: 100%;
+  height: 250rpx;
+}
+
+.bodyRightItemLeft {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.bodyRightItemleftImg {
+  width: 50%;
+  height: 50%;
+}
+
+.bodyRightItemRight {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.select{
+  flex-direction:row;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}

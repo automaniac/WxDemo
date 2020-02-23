@@ -1,0 +1,19 @@
+<!--pages/newsDetail/newsDetail.wxml-->
+<view class="container">
+<text>{{news.channel}}新闻</text>
+<view wx:for="{{list}}">
+<text>{{item.title}}</text>
+    <text>{{item.time}}</text>
+    <text>来源:{{item.src}}</text>
+   <!-- <view class="bodyRightItem">
+      <view class="bodyRightItemLeft">
+        <image class="bodyRightItemImg" src="{{item.pic}}"></image>
+      </view>
+      <view class="bodyRightItemRight">
+        <text>{{item.content}}</text>
+      </view>
+    </view> -->
+    <image src="{{item.pic}}"></image>
+    </view>
+    
+</view>

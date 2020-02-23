@@ -1,0 +1,12 @@
+<!--pages/jiemeng/jiemeng.wxml-->
+<view class="container">
+<text>脑筋急转弯</text>
+<image src="{{pic}}"></image>
+<input class="ins" placeholder="请输入关键字" bindinput="getq"></input>
+<button class="btn" bindtap="test">搜索</button>
+<view wx:for="{{list}}">
+<text>{{item.content}}</text>
+<button class="btn" bindtap="showAnswer">\n显示答案</button>
+<view wx:if="{{wheater}}"><text>\n答案：{{item.answer}}</text></view>
+</view>
+</view>

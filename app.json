@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "pages/menu/menu",
+    "pages/wechat/wechat",
+    "pages/news/news", 
+    "pages/think/think",
+    "pages/idcard/idcard",
+    "pages/dream/dream",
+    "pages/tvlist/tvlist",
+    "pages/tvDetail/tvDetail",
+    "pages/wechatdetail/wechatdetail",
+    "pages/wedetail/wedetail",
+    
+    "pages/front/front",
+    "pages/mine/mine",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "8太行",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "该小程序为了用户体验需要获取您当前的位置信息"
+    }
+  },
+  "tabBar": {
+    "backgroundColor": "#468172",
+    "color": "#8a8a8a",
+    "selectedColor": "#f4ea2a",
+    "list": [
+      {
+        "pagePath": "pages/front/front",
+        "text": "首页",
+        "iconPath": "icons/front.png",
+        "selectedIconPath": "icons/selected_front.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "探索",
+        "iconPath": "icons/start.png",
+        "selectedIconPath": "icons/selected_start.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icons/mine.png",
+        "selectedIconPath": "icons/selected_mine.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

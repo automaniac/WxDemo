@@ -1,0 +1,9 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+<image src="{{logo}}"></image>
+<input bindinput="getName" class="ins" placeholder="请输入用户名" value="{{inputvalue}}"></input>
+<input bindinput="getAc" class="ins" placeholder="请输入账号" value="{{inputvalue}}"></input>
+<input type="password" bindinput="getPwd1" class="ins" placeholder="请输入密码" value="{{inputvalue}}"></input>
+<input type="password" bindinput="getPwd2" class="ins" placeholder="请再次输入密码" value="{{inputvalue}}"></input>
+<button class="btns" bindtap="register">注册</button>
+</view>

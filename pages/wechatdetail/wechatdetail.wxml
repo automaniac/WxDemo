@@ -1,0 +1,2 @@
+<!--pages/wechatdetail/wechatdetail.wxml-->
+<web-view src=""></web-view>

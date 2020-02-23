@@ -1,0 +1,9 @@
+<!--pages/ai/ai.wxml-->
+<view class="container">
+<text>人工智障</text>
+<input class="ins" bindinput="getQ">
+</input>
+<button class="btns" bindtap="test">问我一下</button>
+<text>问题类型:{{result.type}}</text>
+<text>回答内容:{{result.content}}</text>
+</view>

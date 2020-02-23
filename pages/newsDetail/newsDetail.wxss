@@ -1,0 +1,21 @@
+/* .bodyRightItem {
+  width: 100%;
+  height: 250rpx;
+}
+
+.bodyRightItemLeft {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.bodyRightItemleftImg {
+  width: 100%;
+  height: 100%;
+}
+
+.bodyRightItemRight {
+  width: 50%;
+  height: 100%;
+  float: right;
+} */

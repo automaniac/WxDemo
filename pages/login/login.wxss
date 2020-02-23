@@ -1,0 +1,25 @@
+/* pages/register/register.wxss */
+.ins{
+width: 80%;
+height: 100rpx;
+background-color: #2c2525;
+margin-top: 80rpx;
+padding-left: 40rpx;
+color: white;
+}
+.btns{
+width: 50%;
+height: 100rpx;
+margin-top:80rpx;
+background-color:  rgb(16, 116, 102);
+color: white;
+}
+
+.btns1{
+width: 50%;
+height: 100rpx;
+margin-top:80rpx;
+background-color:  goldenrod;
+color: white;
+}
+

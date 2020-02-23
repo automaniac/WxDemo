@@ -1,0 +1,6 @@
+<!--pages/tvlist/tvlist.wxml-->
+<view class="out">
+  <view class="con" wx:for="{{list}}" bindtap="toDetail" data-tid="{{item.tvid}}">
+    <text>{{item.name}}</text>
+  </view>
+</view>

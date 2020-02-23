@@ -1,0 +1,28 @@
+/* pages/news/news.wxss */
+.ins{
+  height:100rpx;
+  width: 100%;
+  background-color: #d1d1d1;
+  padding-left: 50rpx;
+}
+.btns{
+  width: 50%;
+  height: 100rpx;
+  margin-top: 80rpx;
+  background-color: goldenrod;
+  color: white;
+}
+
+.outer {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap; 
+}
+.con {
+  width: 25%;
+  float: left;
+}
+.out {
+  overflow: hidden;
+}
+

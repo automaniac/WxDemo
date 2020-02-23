@@ -1,0 +1,33 @@
+<!--pages/menu/menu.wxml-->
+<view class="container">
+  <input bindinput="getMenu" class="ins" placeholder="请输入你想要查找的菜名"></input>
+  <button bindtap="select" class="btn">查找</button>
+  </view>
+<!-- <view>
+  <view wx:for="{{list}}" class="topRightV">
+
+    <view class="topLeftV">
+      <image src="{{item.pic}}"></image>
+    </view>
+    <text>菜名: {{item.name}}</text>
+    <text>适宜人数: {{item.peoplenum}}</text>
+    <text>烹饪时间: {{item.cookingtime}}</text>
+  </view>
+</view> -->
+<view class="content">
+<view wx:for="{{list}}" class="container" data-menuid="">
+    <image src="{{item.pic}}"></image>
+    <text>菜名: {{item.name}}</text>
+    <text>适宜人数: {{item.peoplenum}}</text>
+    <text>烹饪时间: {{item.cookingtime}}</text>
+    <text class="left">备料如下:</text>
+    <view wx:for="{{item.material}}" class="container">
+    <text>{{item.mname}}:{{item.amount}}</text>
+    </view>
+    <text>步骤如下:</text>
+    <view wx:for="{{item.process}}" class="container">
+    <text>{{item.pcontent}}</text>
+    <image src="{{item.pic}}"></image>
+    </view>
+  </view>
+</view>

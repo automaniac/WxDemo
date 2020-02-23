@@ -1,0 +1,57 @@
+/* pages/menu/menu.wxss */
+.ins{
+  width: 80%;
+  height: 100rpx;
+  background-color: #d1d1d1;
+  padding-left: 30rpx;
+  margin-top: 40rpx;
+}
+.btn{
+width: 60%;
+height: 100rpx;
+background-color: goldenrod;
+color: white;
+margin-top: 40rpx;
+
+}
+.topv{
+  width: 100%;
+  height: 100%;
+}
+.topLeftV{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.topRightV{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.bodyRightItem {
+  padding-top: 20rpx;
+  width: 100%;
+  height: 250rpx;
+}
+
+.bodyRightItemLeft {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.bodyRightItemleftImg {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.bodyRightItemRight {
+  
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.content{
+  padding-top: 20rpx;
+}

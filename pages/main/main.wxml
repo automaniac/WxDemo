@@ -1,0 +1,40 @@
+<view class="outer">
+  <view class="space" bindtap="phone">
+    <image src="{{phone}}" class="img"></image>
+    <text>手机归属地</text>
+  </view>
+  <view class="space" bindtap="tv">
+    <image src="{{tv}}" class="img"></image>
+    <text>电视预告</text>
+  </view>
+  <view class="space" bindtap="dream">
+    <image src="{{bed}}" class="img"></image>
+    <text>周公解梦</text>
+  </view>
+  <view class="space" bindtap="idcard">
+    <image src="{{idcard}}" class="img"></image>
+    <text>身份证查询</text>
+  </view>
+  <view class="space" bindtap="news">
+    <image src="{{news}}" class="img"></image>
+    <text>新闻</text>
+  </view>
+  <view class="space" bindtap="food">
+    <image src="{{food}}" class="img"></image>
+    <text>菜谱</text>
+  </view>
+  <view class="space" bindtap="wechat">
+    <image src="{{wechat}}" class="img"></image>
+    <text>微信文章精选</text>
+  </view>
+  <view class="space" bindtap="ai">
+    <image src="{{q}}" class="img"></image>
+    <text>智能问答</text>
+  </view>
+  <view class="space" bindtap="think">
+    <image src="{{think}}" class="img"></image>
+    <text>脑筋急转弯</text>
+  </view>
+
+
+</view>

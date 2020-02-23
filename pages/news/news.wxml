@@ -1,0 +1,15 @@
+<!--pages/news/news.wxml-->
+  <view class="out">
+  <view wx:for="{{result}}" class="con">
+    <view bindtap="toDetail" data-tid="{{item}}">{{item}}</view>
+  </view>
+  </view>
+  <text class="container">请输入想要搜索的新闻</text>
+  <input bindinput="getNews" class="ins"></input>
+  <button class="btns" bindtap="search">搜索</button>
+  <view wx:for="{{list}}">
+    <text>{{item.title}}</text>
+    <text>{{item.time}}</text>
+    <text>来源:{{item.src}}</text>
+    <image src="{{item.pic}}"></image>
+  </view>

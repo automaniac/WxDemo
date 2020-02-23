@@ -1,0 +1,9 @@
+<!--pages/tvDetail/tvDetai.wxml-->
+<view class="container">
+  <text>电视频道名称:{{result.name}}</text>
+  <text>日期:{{result.date}}</text>
+  <view wx:for="{{list}}">
+    <text>{{item.name}}</text>
+    <text>{{item.starttime}}</text>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+/* pages/dream/dream.wxss */
+.ins{
+  width: 80%;
+  height: 100rpx;
+  background-color: #d1d1d1;
+  color: white;
+  margin-top: 80rpx;
+  padding-left: 40rpx;
+}
+.btns{
+  width: 50%;
+  height: 100rpx;
+  margin-top: 80rpx;
+  background-color: goldenrod;
+  color: white;
+}

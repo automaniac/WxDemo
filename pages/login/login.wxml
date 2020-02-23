@@ -1,0 +1,8 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+<image src="{{logo}}"></image>
+<input bindinput="getAc" class="ins" placeholder="请输入账号" value="{{inputvalue}}"></input>
+<input type="password" bindinput="getPwd" class="ins" placeholder="请输入密码" value="{{inputvalue}}"></input>
+<button class="btns" bindtap="login">登录</button>
+<button class="btns1" bindtap="register">注册</button> 
+</view>

@@ -1,0 +1,20 @@
+<!--pages/wedetail/wedetail.wxml-->
+<view class="container">
+<text>{{wechat.channel}}文章分类</text>
+<view wx:for="{{list}}">
+<view bindtap="toDetail" data-url="{{item.url}}">
+<text>{{item.title}}</text>
+    <text>{{item.time}}</text>
+    <text>来源:{{item.weixinname}}</text>
+   <!-- <view class="bodyRightItem">
+      <view class="bodyRightItemLeft">
+        <image class="bodyRightItemImg" src="{{item.pic}}"></image>
+      </view>
+      <view class="bodyRightItemRight">
+        <text>{{item.content}}</text>
+      </view>
+    </view> -->
+    <image src="{{item.pic}}"></image>
+    </view>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/dream/dream.wxml-->
+<view class="container">
+  <text>周公解梦</text>
+  <input bindinput="getDream" class="ins" placeholder="输入梦到的东西"></input>
+  <button bindtap="test" class="btns">解梦</button>
+  <view wx:for="{{list}}">
+    <text>{{item.name}}</text>
+    <text>{{item.content}}</text>
+  </view>
+</view>
